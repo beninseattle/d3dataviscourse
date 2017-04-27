@@ -9,3 +9,24 @@ body,html{
 	background-color: #F5F2EB;
 	border: 1px solid #CCC;
 }
+.bar{
+    fill: purple;
+    shape-rendering: crispEdges;
+}
+.bar-label{
+    text-anchor: middle;
+    fill: black;
+    font-size: 24px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.gridline path,
+.gridline line{
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
